@@ -1,0 +1,21 @@
+#include<studio.h>
+Int sum(int a);
+Int main()
+{
+Int num,result;
+Print("enter the no:");
+Scanf("%d",&num);
+Result=sum(num);
+Print("sum of digits in %d is%d\n",numresult);
+Return 0;
+}
+Int sum (int sum );
+{
+If(num!=0)
+Return(num%10+sum(num/10));
+}
+Else
+{
+Return 0;
+}
+}
